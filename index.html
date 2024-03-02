@@ -1,0 +1,304 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+          integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <title>Turbologo</title>
+</head>
+<body>
+
+<!--header section ----------------------------->
+<header>
+    <div class="container">
+        <section class="section-about">
+            <div class="logo">
+                <a href="#">
+                    <img src="images/logo.png" alt="Turbologo">
+                </a>
+            </div>
+            <div class="contacts">
+                <span class="address">Гельсингфорсская ул., 4 корпус 1,  Санкт-Петербург, 194044</span>
+                <a href="#">
+                    <i class="fa-regular fa-user"></i>
+                    <span>Вход</span>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-telegram"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+                <!--                tel number-->
+                <a href="tel:+78123000000">
+                    <i class="fa-solid fa-phone"></i>
+                    <span>+7 (812) 300-00-00</span>
+                </a>
+            </div>
+            <div class="cart">
+                <a href="#">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </a>
+            </div>
+            <div class="burger-menu">
+<!--               cross icon -->
+                <a class="close-menu-icon" href="#">
+                    <i class="fa-solid fa-times"></i>
+                </a>
+                <a class="open-menu-icon" href="#">
+                    Меню
+                    <i class="fa-solid fa-bars"></i>
+                </a>
+            </div>
+        </section>
+        <nav>
+            <ul>
+                <li>
+                    <a class="toggle" href="#">О компании</a>
+                    <ul class="submenu">
+                        <li><a href="#">Отзывы</a></li>
+                        <li><a href="#"> Сотрудники</a></li>
+                        <li><a href="#">Сертификаты</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Каталог</a></li>
+                <li><a href="#">Услуги</a></li>
+                <li><a href="#">Оплата / Доставка</a></li>
+                <li><a href="#">Гарантии</a></li>
+                <li><a href="#">Опыт</a></li>
+                <li><a href="#">Новости</a></li>
+                <li><a href="#">Контакты</a></li>
+            </ul>
+        </nav>
+
+    </div>
+</header>
+<!--main section ----------------------------->
+<main>
+    <div class="container ">
+        <div class="flex">
+            <!--        aside start------------>
+            <aside>
+                <div class="aside-title">
+                    <h2>Категория</h2>
+                </div>
+                <div class="aside-menu">
+                    <label><input type="checkbox" name="intreactive" id="intreactive">Интерактивные ИБП</label>
+                    <label><input type="checkbox" name="line-interactive"
+                                  id="line-interactive">Линейно-интерактивные ИБП</label>
+                    <label><input type="checkbox" name="online" id="online">SMART и онлайн ИБП</label>
+                    <label><input type="checkbox" name="network" id="network">Сетевые фильтры</label>
+                    <label><input type="checkbox" name="stabilizer" id="stabilizer">Стабилизаторы напряжения</label>
+                    <label><input type="checkbox" name="batteries" id="batteries">Батареи</label>
+                    <label><input type="checkbox" name="software" id="software">Программное обеспечение</label>
+                    <label><input type="checkbox" name="technologies" id="technologies">Технологии</label>
+                    <label><input type="checkbox" name="technologies" id="monitoring">Мониторинг и управление</label>
+                    <label><input type="checkbox" name="accessories" id="accessories">Трехфазные системы</label>
+                    <label><input type="checkbox" name="accessories" id="accessories2">Распределители питания</label>
+
+                </div>
+                <div class="aside-title">
+                    <h2>Производитель</h2>
+                </div>
+                <div class="aside-menu">
+                    <label><input type="checkbox" name="cyberpower" id="cyberpower">CyberPower</label>
+                    <label><input type="checkbox" name="apc" id="apc">APC</label>
+                    <label><input type="checkbox" name="eaton" id="eaton">Eaton</label>
+                    <label><input type="checkbox" name="eaton" id="eaton2">Cheron</label>
+                    <label><input type="checkbox" name="powercom" id="powercom">Powercom</label>
+                </div>
+            </aside>
+            <!--        aside end------------>
+            <!--        item card start------------>
+            <div class="item-card">
+                <div class="item-card-title">
+                    <h1>ИБП CyberPower BU600E</h1>
+                </div>
+                <div class="item-card-info">
+                    <div class="item-card-info-img">
+                        <div class="slider">
+                            <div class="slide"><img src="./images/item.png" alt="Slide 1"></div>
+                            <div class="slide"><img src="./images/logo.png" alt="Slide 2"></div>
+                            <div class="slide"><img src="./images/item.png" alt="Slide 3"></div>
+                        </div>
+
+                        <div class="thumbnails">
+                            <div class="thumb" data-target="0"><img src="./images/item.png" alt=""></div>
+                            <div class="thumb" data-target="1"><img src="./images/item.png" alt=""></div>
+                            <div class="thumb" data-target="2"><img src="./images/item.png" alt=""></div>
+                        </div>
+
+                    </div>
+                    <div class="item-card-info-desc">
+                        <span class="first-art">Артикул: <strong>3434е3о</strong></span>
+                        <span>
+                         Watts <strong> 360 </strong>
+                    </span>
+                        <span>
+                        Выходное напряжение ( В перем. ) <strong> 230 ± 10% </strong>
+                    </span>
+                        <span>
+                        Время работы при 90Вт ( мин ) <strong> 18 </strong>
+                    </span>
+                        <span>
+                        Выходные разъемы <strong> Schuko x 3 </strong>
+                    </span>
+                        <div class="price">
+                            <h3> 23 000 p.</h3>
+                            <span class="discount">
+                            <span class="discount-20">
+                                -20%
+                            </span>
+                            23 000 p.</span>
+                            <button class="plus-button">+</button>
+                            <span class="quantity">0</span>
+                            <button class="minus-button">-</button>
+                        </div>
+                        <div class="item-card-info-btn">
+                            <button class="add-to-cart-button">В корзину</button>
+                            <button class="fast-order-button">Быстрый заказ</button>
+                        </div>
+
+
+                    </div>
+
+                </div>
+                <!--        characteristic-------->
+                <div class="characteristic">
+                    <div class="characteristic-buttons">
+                        <button class="char-btn">Характеристики</button>
+                        <button class="doc-btn">Документация</button>
+                    </div>
+                    <div class="characteristic-content2">
+                        <!--                        2 pdf document-->
+                        <a href="#"><i class="fa-solid fa-file-invoice"></i>Скачать паспорт.pdf</a>
+                        <a href="#"><i class="fa-solid fa-file-invoice"></i>Скачать руководство.pdf</a>
+                    </div>
+                    <div class="characteristic-content">
+                        <ul>
+                            <li>
+                                <span>Производитель</span>
+                                <span>CyberPower</span>
+                            </li>
+                            <li>
+                                <span>Страна производства
+</span>
+                                <span>Тайвань</span>
+                            </li>
+                            <li>
+                                <span>Мощность выход </span>
+                                <span>360 W</span>
+                            </li>
+                            <li>
+                                <span>Напряжение вход/выход
+</span>
+                                <span>220 V</span>
+                            </li>
+                            <li>
+                                <span>Количество фаз вход/выход</span>
+                                <span>3</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!--        item card end------------>
+        </div>
+
+
+    </div>
+</main>
+<!--end main section ----------------------------->
+<!--subscribe section--------------->
+<section class="bg-blue">
+    <div class="container">
+        <div class="subscribe">
+            <h1>
+                Полезная рассылка
+            </h1>
+            <div class="email">
+                <div class="email2">
+                    <label for="post">Почта
+                        <input class="email-input" type="email" id="post" placeholder="Email...">
+                    </label>
+                    <button class="send-button">Отправить</button>
+                </div>
+                <label class="policy" for="subscribe">
+                    <input type="checkbox" name="subscribe" id="subscribe">
+                    <span>Подтверждаю свое согласие на обработку своих персональных данных
+в соответствии с Политикой конфиденциальности </span>
+                </label>
+            </div>
+
+
+        </div>
+    </div>
+
+</section>
+<!--footer section--------------->
+<footer>
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="images/logo.png" alt="Turbologo">
+                <div class="social-icons">
+                    <a href="#">
+                        <i class="fa-brands fa-telegram"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                </div>
+                <span>
+                    2021 © Все права защищены
+                </span>
+            </div>
+            <div class="footer-menu">
+                <ul>
+                    <li><a href="#">О компании</a></li>
+                    <li><a href="#">Каталог</a></li>
+                    <li><a href="#">Услуги</a></li>
+                    <li><a href="#">Оплата / Доставка</a></li>
+
+                </ul>
+            </div>
+            <div class="footer-menu">
+                <ul>
+                    <li><a href="#">Гарантии</a></li>
+                    <li><a href="#">Опыт</a></li>
+                    <li><a href="#">Новости</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+            </div>
+            <div class="footer-menu">
+                <ul>
+                    <li><a href="#">Политика конфиденциальности</a></li>
+                    <li><a href="#">Пользовательское соглашение</a></li>
+                    <li><a href="#">Публичная оферта</a></li>
+                    <li><a href="#">Карта сайта</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-contacts">
+                <a href="tel:+78123000000">
+                    <i class="fa-solid fa-phone"></i>
+                    <span>+7 (812) 300-00-00</span>
+                </a>
+                <span class="address2">Гельсингфорсская ул., 4 корпус 1,  Санкт-Петербург, 194044</span>
+
+                <a href="email:office@gmail.com">
+                    HJYolv@woevg.com
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="./script.js"></script>
+
+</body>
+</html>
