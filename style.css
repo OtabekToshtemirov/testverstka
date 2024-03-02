@@ -71,6 +71,27 @@ li {
 li:hover .submenu {
     display: block;
 }
+.new{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+.new-item{
+    background-color: #1648a8;
+    color: #fff;
+    padding: 0 10px;
+    font-size: 12px;
+    border-radius: 0 0 0 5px;
+}
+.hit-item{
+    background-color: #ffd230;
+    color: #000;
+    padding:0 10px;
+    font-size: 12px;
+    border-radius: 0 0 0 5px;
+}
 
 
 .section-about {
@@ -120,6 +141,7 @@ li:hover .submenu {
 nav {
     margin: 30px 0;
     position: relative;
+    z-index: 99999;
 }
 
 nav a {
@@ -275,7 +297,7 @@ nav ul {
 }
 
 .item-card-info-img {
-
+    position: relative;
 }
 
 .item-card-info-btn button {
